@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^client/(.+)$ /httpdocs/client.php?path=$1 [L,QSA,NC]
+
+RewriteRule ^player/([a-zA-Z0-9_-]+)$ /httpdocs/player/profile.php?uid=$1 [L,QSA,NC]
+
+RewriteRule ^team/(.+)/(.+)$ /httpdocs/team/$2?tid=$1 [L,QSA,NC]
+RewriteRule ^team/(.+)$ /httpdocs/team/profile.php?tid=$1 [L,QSA,NC]
+
+RewriteCond %{DOCUMENT_ROOT}/httpdocs/$2.php -f
+RewriteRule ^(([a-zA-Z0-9_-]+)/?)+$ /httpdocs/$2.php [L,QSA,NC]

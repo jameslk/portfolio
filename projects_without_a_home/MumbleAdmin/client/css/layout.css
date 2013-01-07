@@ -1,0 +1,310 @@
+.clear {
+	clear : both;
+}
+
+body {
+	background : white;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	color : #646464;
+}
+
+#wrapper {
+	text-align : left;
+	width : 930px;
+	margin : 0 auto;
+}
+
+h1 {
+	margin : 15px 0 10px 5px;
+	font-size : 32px;
+}
+
+h1 a {
+	display : block;
+	width : 225px;
+	height : 28px;
+}
+
+h1 span {
+	display : none;
+}
+
+#mainNav {
+	width : 918px;
+	height : 37px;
+	padding : 6px;
+	margin-bottom : 10px;
+	background : url(../img/top-menu-bg.gif) no-repeat left top;
+}
+
+#mainNav li a {
+	height : 18px;
+	font-weight : bold;
+	color : #646464;
+}
+
+#containerHolder {
+	background : #eee;
+	padding : 5px;
+}
+
+#container {
+	background : #fff;
+	border : 1px solid #ddd;
+	width : 918px;
+}
+
+h2 {
+	width : 908px;
+	color : #646464;
+	font-size : 16px;
+	line-height : 16px;
+	font-weight : bold;
+	padding-left : 10px;
+	padding-bottom : 10px;
+	margin-top : 10px;
+	margin-bottom : 10px;
+	border-bottom : 1px solid #ddd;
+}
+
+h2 a {
+	color : #646464;
+	text-decoration : none;
+}
+
+h2 a.active {
+	color : #c66653;
+}
+
+h2 a:hover {
+	text-decoration : underline;
+}
+
+#main {
+	width : 900px;
+	padding : 0 19px 0 0;
+}
+
+h3 {
+	font-size : 14px;
+	line-height : 14px;
+	font-weight : bold;
+	color : #5494af;
+	padding : 0 0 0 10px;
+	margin : 20px 0 10px;
+}
+
+#main {
+	padding-left : 10px;
+	padding-bottom : 20px;
+}
+
+#main p {
+	margin-left : 10px;
+}
+
+#main table {
+	width : 100%;
+	margin-bottom : 10px;
+}
+
+#main table tr td {
+	padding-left : 10px;
+	height : 29px;
+	line-height : 29px;
+}
+
+#main table th {
+	padding-left : 10px;
+	/*background : #f6f6f6;*/
+	background: #E5E5E5;
+	height : 29px;
+	line-height : 29px;
+}
+
+#main table tr.odd td {
+	background : #fbfbfb;
+}
+
+#main table tr:hover td {
+	background : #fdfcf6;
+}
+
+#main table .action {
+	text-align : right;
+}
+
+#main a {
+	color : #646464;
+}
+
+.td_caption {
+	font-weight : bold;
+	width : 25%;
+	white-space : nowrap;
+}
+
+#main table tr .action a {
+	margin : 0 0 0 10px;
+	text-decoration : none;
+	color : #9b9b9b;
+}
+
+#main table tr:hover .action .edit {
+	color : #c5a059;
+}
+
+#main table tr:hover .action .delete {
+	color : #a02b2b;
+}
+
+#main table tr:hover .action .view {
+	color : #55a34a;
+}
+
+#main table tr:hover .action a:hover {
+	text-decoration : underline;
+}
+
+#main fieldset {
+	padding : 19px;
+	margin : 0 0 20px 0;
+	background : #fbfbfb;
+}
+
+#main fieldset p {
+	margin : 0 0 14px 0;
+	float : left;
+	width : 100%;
+}
+
+#main fieldset label {
+	display : block;
+	width : 100%;
+	margin : 0 0 7px 0;
+	line-height : 12px;
+}
+
+#main fieldset .text-long {
+	border : 1px solid #ddd;
+	background : #fff url(../img/input-shaddow.gif) no-repeat left top;
+	font : 11px Arial, Helvetica, sans-serif;
+	color : #646464;
+	padding : 5px 7px;
+	width : 264px;
+	float : left;
+	margin : 0 10px 0 0;
+}
+
+#main fieldset .text-medium {
+	border : 1px solid #ddd;
+	background : #fff url(../img/input-shaddow.gif) no-repeat left top;
+	font : 11px Arial, Helvetica, sans-serif;
+	color : #646464;
+	padding : 5px 7px;
+	width : 124px;
+	float : left;
+	margin : 0 10px 0 0;
+}
+
+#main fieldset .text-small {
+	border : 1px solid #ddd;
+	background : #fff url(../img/input-shaddow.gif) no-repeat left top;
+	font : 11px Arial, Helvetica, sans-serif;
+	color : #646464;
+	padding : 5px 7px;
+	width : 44px;
+	float : left;
+	margin : 0 10px 0 0;
+}
+
+#main fieldset .text-long:focus, #main fieldset .text-medium:focus, #main fieldset .text-small:focus, #main fieldset textarea:focus {
+	background : #fdfcf6 url(../img/input-shaddow-hover.gif) no-repeat left top;
+}
+
+#main fieldset textarea {
+	border : 1px solid #ddd;
+	background : #fff url(../img/input-shaddow.gif) no-repeat left top;
+	font : 11px Arial, Helvetica, sans-serif;
+	color : #646464;
+	padding : 5px 7px;
+	width : 364px;
+	float : left;
+	margin : 0 10px 0 0;
+	height : 148px;
+	overflow : hidden;
+}
+
+.button-submit {
+	font : 11px Arial, Helvetica, sans-serif;
+	color : #646464;
+	width : 94px;
+	height : 29px;
+	cursor : pointer;
+	border : none;
+	background : url(../img/button-submit.gif) no-repeat left top;
+}
+
+#footer {
+	margin : 10px 0 30px 0;
+	font-size : 11px;
+	line-height : 11px;
+	color : #9b9b9b;
+	padding : 0 0 0 5px;
+}
+
+#footer a {
+	color : #9b9b9b;
+}
+
+#footer a:hover {
+	text-decoration : none;
+}
+
+.info, .success, .warning, .error {
+	border : 1px solid;
+	margin : 10px 0;
+	padding : 15px 10px 15px 50px;
+	background-repeat : no-repeat;
+	background-position : 10px center;
+}
+
+.info {
+	color : #00529b;
+	background-color : #ddd;
+	background-image : url('../img/info.png');
+}
+
+.success {
+	color : #4f8a10;
+	background-color : #ddd;
+	background-image : url('../img/success.png');
+}
+
+.warning {
+	color : #9f6000;
+	background-color : #ddd;
+	background-image : url('../img/warning.png');
+}
+
+.error {
+	color : #d8000c;
+	background-color : #ddd;
+	background-image : url('../img/error.png');
+}
+
+#box {
+	width : 100%;
+	margin : 0 auto;
+}
+
+#left {
+	width : 49%;
+	float : left;
+}
+
+#right {
+	width : 49%;
+	float : right;
+}

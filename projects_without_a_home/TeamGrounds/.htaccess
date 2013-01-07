@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteCond %{ENV:REDIRECT_STATUS} =""
+RewriteCond %{REQUEST_URI} ^/httpdocs/
+RewriteRule ^httpdocs/(.*)$ /$1 [L,QSA,R=301]
+
+RewriteCond %{ENV:REDIRECT_STATUS} =""
+RewriteRule ^(.*)$ /httpdocs/$1 [L,QSA]
