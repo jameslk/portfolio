@@ -21,7 +21,7 @@ cross-platform bot that could be scripted with the PHP language. Needless to say
 * [Project Site](http://sourceforge.net/projects/xionbot/)
 * [Source Code](http://xionbot.cvs.sourceforge.net/viewvc/xionbot/phpbot/)
 
-## MumbleAdmin (circa 2011) - PHP and CodeIgniter
+## MumbleAdmin (circa 2010) - PHP and CodeIgniter
 A client wanted a way to control all of his Mumble servers (VoIP technology) via a web interface. I built this small application to his spec which worked by communicating with the Mumble daemons through [ICE RPC middleware](http://en.wikipedia.org/wiki/Internet_Communications_Engine). He never paid me so I guess it might as well be a portfolio piece right?
 
 * [Source Code](/jameslk/portfolio/tree/master/projects_without_a_home/MumbleAdmin)
