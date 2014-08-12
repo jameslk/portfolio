@@ -1,6 +1,11 @@
 # Introduction
 You're probably looking for samples of my work. Since some of it would be better suited with an explanation and some of it isn't even on Github, I've tried to compile a summary here of projects I've worked on. This will serve as a spring board for your journey into the vast wilderness of my code and just what my purpose was for building it.
 
+## Rails Todo List Code Sample (circa 2013) - Ruby on Rails / AngularJS
+During a technical interview, I was asked to build a todo list web app. The requirements were that it needed to be user-driven (each user has their own todo list), it needed to be a single-page app, and it needed to communicate to the server via a RESTful API. I decided using Rails on the backend and AngularJS on the frontend would be best suited for these requirements. The client-side application is compiled with Grunt and Browserify and delivered statically for optimal performance.
+
+* [Source Code](https://github.com/jameslk/rails-todo-demo)
+
 ## TeamGrounds (circa 2009) - PHP
 This is a project based around the idea of giving gamers a way to create profiles for their teams and connect with other players. I never completed it because another bigger opportunity presented itself, but got far enough where users could have profiles, avatars and friends. In the process I invented my own mini framework complete with its own ORM. I eventually learned that there were frameworks already out there and that writing my own wasn't really necessary. Oh well.
 
