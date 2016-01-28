@@ -16,7 +16,7 @@ This is a project based around the idea of giving gamers a way to create profile
 ## CSS:RPG - 2006-2007
 I built a game called CSS:RPG which was a modification to another game called Counter-Strike: Source. In its heyday it had 700+ servers hosting the mod with thousands of players. It was later featured in the printed edition of PC Gamer Magazine. To this date, the game has had 200,000 downloads.
 
-* [Source Code](http://cssrpg.cvs.sourceforge.net/viewvc/cssrpg/plugin_cssrpg/)
+* [Source Code](https://github.com/jameslk/cssrpg-archive)
 * [Project Site](http://sourceforge.net/projects/cssrpg/)
 * [PC Gamer Magazine, Pg. 102](http://jameskoshigoe.com/stuff/cssrpg-pcgamer.jpg)
 * Technologies: C++, SQLite, Half-Life 2 SDK
@@ -26,7 +26,7 @@ Once upon a time, someone challenged me when they said that I didn't have the sk
 level language such as C. I set out to prove them wrong and that's exactly what I did. The result was a working, modular
 cross-platform bot that could be scripted with the PHP language. Needless to say, I felt somewhat vindicated.
 
-* [Source Code](http://xionbot.cvs.sourceforge.net/viewvc/xionbot/phpbot/)
+* [Source Code](https://github.com/jameslk/xionbot-archive)
 * Technologies: C, Sockets, PHP SAPI, IRC Protocol
 
 ## MumbleAdmin - 2010
